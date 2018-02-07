@@ -1,0 +1,266 @@
+localhost | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "192.168.1.4"
+        ], 
+        "ansible_all_ipv6_addresses": [
+            "fe80::4f8:294f:dbb5:693%en0"
+        ], 
+        "ansible_apparmor": {
+            "status": "disabled"
+        }, 
+        "ansible_architecture": "x86_64", 
+        "ansible_date_time": {
+            "date": "2018-02-08", 
+            "day": "08", 
+            "epoch": "1518020678", 
+            "hour": "00", 
+            "iso8601": "2018-02-07T16:24:38Z", 
+            "iso8601_basic": "20180208T002438523255", 
+            "iso8601_basic_short": "20180208T002438", 
+            "iso8601_micro": "2018-02-07T16:24:38.523342Z", 
+            "minute": "24", 
+            "month": "02", 
+            "second": "38", 
+            "time": "00:24:38", 
+            "tz": "CST", 
+            "tz_offset": "+0800", 
+            "weekday": "星期四", 
+            "weekday_number": "4", 
+            "weeknumber": "06", 
+            "year": "2018"
+        }, 
+        "ansible_default_ipv4": {
+            "address": "192.168.1.4", 
+            "broadcast": "192.168.1.255", 
+            "device": "en0", 
+            "flags": [
+                "UP", 
+                "BROADCAST", 
+                "SMART", 
+                "RUNNING", 
+                "SIMPLEX", 
+                "MULTICAST"
+            ], 
+            "gateway": "192.168.1.1", 
+            "interface": "en0", 
+            "macaddress": "b8:97:5a:ef:8c:12", 
+            "media": "Unknown", 
+            "media_options": [
+                "full-duplex"
+            ], 
+            "media_select": "autoselect", 
+            "media_type": "100baseT", 
+            "mtu": "1500", 
+            "netmask": "255.255.255.0", 
+            "network": "192.168.1.0", 
+            "options": [
+                "PERFORMNUD", 
+                "DAD"
+            ], 
+            "status": "active", 
+            "type": "ether"
+        }, 
+        "ansible_default_ipv6": {}, 
+        "ansible_distribution": "MacOSX", 
+        "ansible_distribution_major_version": "10", 
+        "ansible_distribution_release": "17.0.0", 
+        "ansible_distribution_version": "10.13.3", 
+        "ansible_dns": {
+            "nameservers": [
+                "192.168.1.1"
+            ]
+        }, 
+        "ansible_domain": "local", 
+        "ansible_effective_group_id": 20, 
+        "ansible_effective_user_id": 501, 
+        "ansible_en0": {
+            "device": "en0", 
+            "flags": [
+                "UP", 
+                "BROADCAST", 
+                "SMART", 
+                "RUNNING", 
+                "SIMPLEX", 
+                "MULTICAST"
+            ], 
+            "ipv4": [
+                {
+                    "address": "192.168.1.4", 
+                    "broadcast": "192.168.1.255", 
+                    "netmask": "255.255.255.0", 
+                    "network": "192.168.1.0"
+                }
+            ], 
+            "ipv6": [
+                {
+                    "address": "fe80::4f8:294f:dbb5:693%en0", 
+                    "prefix": "64"
+                }
+            ], 
+            "macaddress": "b8:97:5a:ef:8c:12", 
+            "media": "Unknown", 
+            "media_options": [
+                "full-duplex"
+            ], 
+            "media_select": "autoselect", 
+            "media_type": "100baseT", 
+            "mtu": "1500", 
+            "options": [
+                "PERFORMNUD", 
+                "DAD"
+            ], 
+            "status": "active", 
+            "type": "ether"
+        }, 
+        "ansible_env": {
+            "Apple_PubSub_Socket_Render": "/private/tmp/com.apple.launchd.R2umJ6CEtB/Render", 
+            "CUDA_HOME": "/usr/local/cuda", 
+            "GOBIN": "/Users/lixueping/go/bin", 
+            "GOPATH": "/Users/lixueping/gopath", 
+            "GOROOT": "/Users/lixueping/go", 
+            "HOME": "/Users/lixueping", 
+            "LANG": "zh_CN.UTF-8", 
+            "LOGNAME": "lixueping", 
+            "PATH": "/Users/lixueping/lib::/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lixueping/go/bin:/Users/lixueping/gopath/bin", 
+            "PWD": "/Users/lixueping/gopath/src/github.com/lflxp/monitor", 
+            "SHELL": "/bin/bash", 
+            "SHLVL": "3", 
+            "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.U9TDbkBvQI/Listeners", 
+            "TERM": "xterm-256color", 
+            "TERM_PROGRAM": "Apple_Terminal", 
+            "TERM_PROGRAM_VERSION": "400", 
+            "TERM_SESSION_ID": "EF138302-26B0-4276-8F98-2129B7DC6C9B", 
+            "TMPDIR": "/var/folders/y_/grkqmvhs469f3xxc0hm1p3xh0000gn/T/", 
+            "USER": "lixueping", 
+            "VERSIONER_PYTHON_PREFER_32_BIT": "no", 
+            "VERSIONER_PYTHON_VERSION": "2.7", 
+            "XPC_FLAGS": "0x0", 
+            "XPC_SERVICE_NAME": "0", 
+            "_": "/usr/local/Cellar/ansible/2.4.3.0/libexec/bin/python", 
+            "__CF_USER_TEXT_ENCODING": "0x1F5:0x19:0x34"
+        }, 
+        "ansible_fips": false, 
+        "ansible_fqdn": "lixuepingdeiMac.local", 
+        "ansible_gif0": {
+            "device": "gif0", 
+            "flags": [
+                "POINTOPOINT", 
+                "MULTICAST"
+            ], 
+            "ipv4": [], 
+            "ipv6": [], 
+            "macaddress": "unknown", 
+            "mtu": "1280", 
+            "type": "unknown"
+        }, 
+        "ansible_hostname": "lixuepingdeiMac", 
+        "ansible_interfaces": [
+            "en0", 
+            "gif0", 
+            "lo0", 
+            "stf0"
+        ], 
+        "ansible_kernel": "17.0.0", 
+        "ansible_lo0": {
+            "device": "lo0", 
+            "flags": [
+                "UP", 
+                "LOOPBACK", 
+                "RUNNING", 
+                "MULTICAST"
+            ], 
+            "ipv4": [
+                {
+                    "address": "127.0.0.1", 
+                    "broadcast": "127.255.255.255", 
+                    "netmask": "255.0.0.0", 
+                    "network": "127.0.0.0"
+                }
+            ], 
+            "ipv6": [
+                {
+                    "address": "::1", 
+                    "prefix": "128"
+                }, 
+                {
+                    "address": "fe80::1%lo0", 
+                    "prefix": "64", 
+                    "scope": "0x1"
+                }
+            ], 
+            "macaddress": "unknown", 
+            "mtu": "16384", 
+            "options": [
+                "PERFORMNUD", 
+                "DAD"
+            ], 
+            "type": "loopback"
+        }, 
+        "ansible_local": {}, 
+        "ansible_lsb": {}, 
+        "ansible_machine": "x86_64", 
+        "ansible_memfree_mb": -15, 
+        "ansible_memtotal_mb": 32768, 
+        "ansible_model": "MacPro6,1", 
+        "ansible_nodename": "lixuepingdeiMac.local", 
+        "ansible_os_family": "Darwin", 
+        "ansible_osrevision": "199506", 
+        "ansible_osversion": "17D47", 
+        "ansible_pkg_mgr": "homebrew", 
+        "ansible_processor": "AMD Ryzen 7 1700 Eight-Core Processor", 
+        "ansible_processor_cores": "8", 
+        "ansible_python": {
+            "executable": "/usr/local/Cellar/ansible/2.4.3.0/libexec/bin/python", 
+            "has_sslcontext": true, 
+            "type": "CPython", 
+            "version": {
+                "major": 2, 
+                "micro": 10, 
+                "minor": 7, 
+                "releaselevel": "final", 
+                "serial": 0
+            }, 
+            "version_info": [
+                2, 
+                7, 
+                10, 
+                "final", 
+                0
+            ]
+        }, 
+        "ansible_python_version": "2.7.10", 
+        "ansible_real_group_id": 20, 
+        "ansible_real_user_id": 501, 
+        "ansible_selinux": {
+            "status": "Missing selinux Python library"
+        }, 
+        "ansible_selinux_python_present": false, 
+        "ansible_service_mgr": "launchd", 
+        "ansible_stf0": {
+            "device": "stf0", 
+            "flags": [], 
+            "ipv4": [], 
+            "ipv6": [], 
+            "macaddress": "unknown", 
+            "mtu": "1280", 
+            "type": "unknown"
+        }, 
+        "ansible_system": "Darwin", 
+        "ansible_user_dir": "/Users/lixueping", 
+        "ansible_user_gecos": "lixueping", 
+        "ansible_user_gid": 20, 
+        "ansible_user_id": "lixueping", 
+        "ansible_user_shell": "/bin/bash", 
+        "ansible_user_uid": 501, 
+        "ansible_userspace_architecture": "x86_64", 
+        "ansible_userspace_bits": "64", 
+        "ansible_virtualization_role": "", 
+        "ansible_virtualization_type": "", 
+        "gather_subset": [
+            "all"
+        ], 
+        "module_setup": true
+    }, 
+    "changed": false
+}
