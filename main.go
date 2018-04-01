@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 
 	"github.com/lflxp/monitor/setup"
@@ -8,6 +9,10 @@ import (
 )
 
 func main() {
-	fmt.Println(setup.NewCommon())
 	// fmt.Println(net.Interfaces())
+	jsons, err := json.Marshal(setup.NewCommon())
+	if err != nil {
+		fmt.Println(err.Error())
+	}
+	fmt.Println(string(jsons))
 }
